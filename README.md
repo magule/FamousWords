@@ -1,4 +1,4 @@
-# famousWords
+# Famous Words
 A Simple Quote Generator Web App 
 
 https://quote2312.web.app/
