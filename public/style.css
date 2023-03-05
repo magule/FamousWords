@@ -1,0 +1,89 @@
+
+body {
+  padding: 0px;
+  background: black; 
+}
+
+.quotes{
+  padding: 195px;
+  text-align: center;
+  background: black;
+  height: 500px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#countdown {
+  font-size: 20px;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+.quotes h1{
+  color: white;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 3px 9px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px #999;
+}
+
+.button1:active {
+  background-color: white;
+  box-shadow: 0 3px white;
+  transform: translateY(4px);
+}
+
+
+.quotes #changeText {
+  color: white;
+  height: 95px;
+  padding:23px 0px 40px 0px;
+}
+
+.footer {
+  text-align: center;
+  background: #ddd;
+  height: 16px;
+}
+.footer2{
+  text-align: center;
+  background: black;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.home {
+  height: 200px;
+  color: black;
+  flex-direction: row; /*thats default*/ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

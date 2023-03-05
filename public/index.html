@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Quotes</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="icons8-q-52.png" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	  
+<div class="quotes">
+	<h1 id="titlee">Famous Quotes</h1>
+	<div id="changeText"></div>
+	<button class="button1" onclick="newQuote()">New Quote</button>
+	<span id="countdown" style="font-weight: bold;"></span>
+</div>
+<div class="footer">
+  <h5>Contact - man0war.napster@gmail.com</h5>
+</div>
+<div class="footer2">
+	<a href=info.html>info</a>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAwnEgPHj5UqIb6Wj0sNtoAVeFyfpB0wWw",
+    authDomain: "quote2312.firebaseapp.com",
+    projectId: "quote2312",
+    storageBucket: "quote2312.appspot.com",
+    messagingSenderId: "512421037501",
+    appId: "1:512421037501:web:fa66a33c4ab7496e7fbed4",
+    measurementId: "G-CKE0GEBCZ5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
