@@ -58,13 +58,24 @@ body {
 
 .footer {
   text-align: center;
-  background: #ddd;
-  height: 16px;
+  background: #333; /* Darker background for better contrast */
+  color: #fff; /* White text for readability */
+  padding: 10px 0; /* Added padding for spacing */
+  font-family: 'Poppins', sans-serif; /* Consistent font */
+  font-size: 14px; /* Increased font size for better readability */
+  border-top: 2px solid #444; /* Added a subtle border for separation */
 }
-.footer2{
+
+.footer2 {
   text-align: center;
-  background: black;
+  background: #000; /* Ensuring consistency with the rest of the design */
+  color: #fff; /* White text for readability */
+  padding: 10px 0; /* Added padding for spacing */
+  font-family: 'Poppins', sans-serif; /* Consistent font */
+  font-size: 14px; /* Increased font size for better readability */
+  border-top: 2px solid #444; /* Added a subtle border for separation */
 }
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
